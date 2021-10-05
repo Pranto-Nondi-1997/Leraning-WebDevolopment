@@ -4,7 +4,7 @@ import Rating from './Rating'
 
 const Courses = ({ course }) => {
     const characterCount = 40
-    const { title, img, price, description, rating, instructor } = course
+    const { title, img, price, description, instructor } = course
     return (
         <div className='col my-3'>
             <div className='card'>
