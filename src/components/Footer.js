@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='container-fluid bg-dark text-white'>
                 <div className='row'>
                     <div className='col text-center py-3'>
-                        Copyright &copy; SohojShikhi
+                        Copyright &copy; Easy Leran WebSikkha
                     </div>
                 </div>
             </div>

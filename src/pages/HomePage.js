@@ -13,14 +13,14 @@ const HomePage = () => {
     return (
         <>
             <div className='container'>
-                <h1 className='text-left slideInRight'>Html</h1>
+                <h1 className='text-left slideInRight'>Bootstrap</h1>
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-4'>
                     {courses &&
                         courses?.html?.map((c, i) => <Courses course={c} key={i} />)}
                 </div>
             </div>
             <div className='container'>
-                <h1 className='text-left slideInRight'>Css</h1>
+                <h1 className='text-left slideInRight'>React</h1>
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-4'>
                     {courses &&
                         courses?.css?.map((c, i) => <Courses course={c} key={i} />)}

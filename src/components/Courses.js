@@ -23,7 +23,7 @@ const Courses = ({ course }) => {
                     <ul className='list-group list-group-flush'>
                         <li className='list-group-item'>
                             <span>
-                                Rating: <Rating value={rating} />
+
                             </span>
                         </li>
                         <li className='list-group-item'>Price:{price}</li>
